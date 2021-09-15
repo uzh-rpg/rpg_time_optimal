@@ -20,4 +20,4 @@ x = planner.solve()
 
 traj = Trajectory(x, NPW=planner.NPW, wp=planner.wp)
 traj.save(BASEPATH + '/example/result_cpc_format.csv', False)
-traj.save(BASEPATH + '/results/result.csv', True)
+traj.save(BASEPATH + '/example/result.csv', True)

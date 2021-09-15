@@ -42,3 +42,5 @@ Bibtex:
 3. Download CasADi from [the official website](https://web.casadi.org) or with `pip install casadi`.
 6. Run the example with `python3 example/optimization.py`.
 7. Show some sparkly plots with `python3 example/plotting.py`.
+
+This will create output `.csv` files with the trajectory and some `.pdf` visualizing the result.

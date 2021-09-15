@@ -4,8 +4,8 @@ arm_length:     0.15            # body center to motor distance diagonal [m]
 inertia:        [[0.001, 0, 0],
                  [0, 0.001, 0],
                  [0, 0, 0.0017]]
-thrust_min:     0.2                 # min thrust per propeller [N]
-TWR_max:        2.5                 # max thrust to weight ratio
+thrust_min:     0.0                 # min thrust per propeller [N]
+TWR_max:        3.3                 # max thrust to weight ratio
 omega_max_xy:   15.0                # max bodyrate magnitude [rad/s]
 omega_max_z:    0.3                 # max bodyrate magnitude [rad/s]
 torque_coeff:   0.05                # thrust to drag relation

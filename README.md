@@ -36,8 +36,9 @@ Bibtex:
 
 # Instructions
 1. Make sure you have Python3 running.
-2. Download CasADi from [the official website](https://web.casadi.org) or with `pip install casadi`.
-3. Clone this repository with `git clone git@github.com:uzh-rpg/rpg_time_optimal.git`.
-4. Navigate into the root folder of the clone repository `cd rpg_time_optimal`.
-5. Run the example with `python3 example/optimization.py`.
-6. Show some sparkly plots with `python3 example/plotting.py`.
+4. Clone this repository with `git clone git@github.com:uzh-rpg/rpg_time_optimal.git`.
+5. Navigate into the root folder of the clone repository `cd rpg_time_optimal`.
+2. Install the requirements `pip3 install -r requirements.txt`
+3. Download CasADi from [the official website](https://web.casadi.org) or with `pip install casadi`.
+6. Run the example with `python3 example/optimization.py`.
+7. Show some sparkly plots with `python3 example/plotting.py`.

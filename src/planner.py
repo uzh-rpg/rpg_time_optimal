@@ -127,7 +127,7 @@ class Planner:
     xg += [self.t_guess]
     g += [t]
     lb += [0.1]
-    ub += [100]
+    ub += [150]
     J = t
 
     # Bound initial state to x0
@@ -203,6 +203,7 @@ class Planner:
       g += [xk - xn]
       lb += [0] * self.NX
       ub += [0] * self.NX
+
       # if i >= (1 + i_wp) * self.NPW:
       if i > self.i_switch[i_wp]:
         i_wp += 1
@@ -269,6 +270,11 @@ class Planner:
       g += [xk[10:13]]
       lb += [-omega_max_xy, -omega_max_xy, -self.quad.omega_max_z]
       ub += [omega_max_xy, omega_max_xy, self.quad.omega_max_z]
+
+      # z constraint
+      g += [xk[2]]
+      lb += [0.5]
+      ub += [100.0]              # infinity
 
       for j in range(self.NW-1):
         g += [muk[j+1]-muk[j]]

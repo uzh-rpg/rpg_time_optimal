@@ -1,17 +1,18 @@
 # Time-Optimal Planning for Quadrotor Waypoint Flight
-This is an **example implementation** of the paper "Time-Optimal Planning for Quadrotor Waypoint Flight" published in Science Robotics the "Robotics and Perception Group" at the Dep. of Informatics (University of Zurich), and Dep. of Neuroinformatics (ETH and University of Zurich).
+This is an **example implementation** of the paper "Time-Optimal Planning for Quadrotor Waypoint Flight" by Philipp Foehn, Angel Romero, Davide Scaramuzza  
+published in Science Robotics, Volume 6, Issue 56, 2021.
 
-Make sure you check out the [video](https://www.youtube.com/watch?v=ZPI8U1uSJUs) below, read the [paper](http://rpg.ifi.uzh.ch/docs/ScienceRobotics21_Foehn.pdf), the [instructions](#instructions), and cite us accordingly.
+Check out the [video](https://www.youtube.com/watch?v=ZPI8U1uSJUs), the [paper](http://rpg.ifi.uzh.ch/docs/ScienceRobotics21_Foehn.pdf), and follow the [instructions](#instructions) below.
 
 
 # Video
 [![Time-Optimal-Planning](https://img.youtube.com/vi/ZPI8U1uSJUs/0.jpg)](https://www.youtube.com/watch?v=ZPI8U1uSJUs)
 
 # Paper
-Find the Science Robotics article [here](https://robotics.sciencemag.org/content/6/56/eabh1221) or read [our full version](http://rpg.ifi.uzh.ch/docs/ScienceRobotics21_Foehn.pdf) of the paper and cite us accordingly:
+If you use this code in an academic context, please cite the following [Science Robotics 2021 paper](http://rpg.ifi.uzh.ch/docs/ScienceRobotics21_Foehn.pdf).
 
-**Time-Optimal Planning for Quadrotor Waypoint Flight**  
-Philipp Foehn, Angel Romero, Davide Scaramuzza  
+Philipp Foehn, Angel Romero, Davide Scaramuzza,
+"**Time-Optimal Planning for Quadrotor Waypoint Flight**,"
 2021, Science Robotics, Volume 6, Issue 56  
 DOI: 10.1126/scirobotics.abh1221  
   

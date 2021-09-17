@@ -13,10 +13,7 @@ If you use this code in an academic context, please cite the following [Science 
 
 Philipp Foehn, Angel Romero, Davide Scaramuzza,
 "**Time-Optimal Planning for Quadrotor Waypoint Flight**,"
-2021, Science Robotics, Volume 6, Issue 56  
-DOI: 10.1126/scirobotics.abh1221  
-  
-  
+2021, Science Robotics, Volume 6, Issue 56, DOI: 10.1126/scirobotics.abh1221  
   
 Bibtex:
 ```
